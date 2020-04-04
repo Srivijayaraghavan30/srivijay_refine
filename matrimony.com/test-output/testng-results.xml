@@ -2,31 +2,54 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="274011" started-at="2020-04-04T05:10:38Z" finished-at="2020-04-04T05:15:12Z">
+  <suite name="Default suite" duration-ms="325340" started-at="2020-04-04T12:15:20Z" finished-at="2020-04-04T12:20:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="274011" started-at="2020-04-04T05:10:38Z" finished-at="2020-04-04T05:15:12Z">
-      <class name="matimony.matrimony.com.Backup">
-        <test-method status="PASS" signature="setup()[pri:0, instance:matimony.matrimony.com.Backup@1cab519]" name="setup" is-config="true" duration-ms="85163" started-at="2020-04-04T10:40:38Z" finished-at="2020-04-04T10:42:04Z">
+    <test name="Default test" duration-ms="325340" started-at="2020-04-04T12:15:20Z" finished-at="2020-04-04T12:20:45Z">
+      <class name="matimony.matrimony.com.editppnepali">
+        <test-method status="PASS" signature="setup()[pri:0, instance:matimony.matrimony.com.editppnepali@1cab519]" name="setup" is-config="true" duration-ms="69821" started-at="2020-04-04T17:45:20Z" finished-at="2020-04-04T17:46:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="setup6()[pri:0, instance:matimony.matrimony.com.Backup@1cab519]" name="setup6" duration-ms="188719" started-at="2020-04-04T10:42:04Z" finished-at="2020-04-04T10:45:12Z">
-          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+        <test-method status="FAIL" signature="setup6()[pri:0, instance:matimony.matrimony.com.editppnepali@1cab519]" name="setup6" duration-ms="254261" started-at="2020-04-04T17:46:30Z" finished-at="2020-04-04T17:50:44Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[Element should have been "select" but was "span"
+              <![CDATA[element not interactable
+  (Session info: chrome=80.0.3987.149)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'VIJAY-PC', ip: '192.168.43.50', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: unknown]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\vijay\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 555c0ce056c5af2cc875e67ad9553a4c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "span"
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=80.0.3987.149)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'VIJAY-PC', ip: '192.168.43.50', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.<init>(Select.java:48)
-	at matimony.matrimony.com.BaseTest.select_text(BaseTest.java:90)
-	at matimony.matrimony.com.Backup.setup6(Backup.java:142)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\vijay\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 555c0ce056c5af2cc875e67ad9553a4c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at matimony.matrimony.com.BaseTest.click(BaseTest.java:61)
+	at matimony.matrimony.com.editppnepali.setup6(editppnepali.java:112)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -54,11 +77,11 @@ Driver info: driver.version: unknown
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup6 -->
-      </class> <!-- matimony.matrimony.com.Backup -->
+      </class> <!-- matimony.matrimony.com.editppnepali -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

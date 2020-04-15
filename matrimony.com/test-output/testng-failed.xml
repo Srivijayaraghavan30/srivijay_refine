@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="matimony.matrimony.com.editppnepali">
+      <class name="matimony.matrimony.com.accountsettingsdelete">
         <methods>
           <include name="setup6"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- matimony.matrimony.com.editppnepali -->
+      </class> <!-- matimony.matrimony.com.accountsettingsdelete -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
